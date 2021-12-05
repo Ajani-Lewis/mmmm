@@ -1,0 +1,30 @@
+.containerb{
+    display: none;
+}
+
+body{
+    font-family: "Gill Sans";
+    font-size: 13px;
+}
+
+.containera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-a{
+    background-color: #eeeff2;
+    border: 2px solid #d0d0ff;
+    width: 720px;
+    table-layout: fixed;
+}
+
+.row-b{
+    background-color: #dfe1e7;
+    border: 2px solid #d0d0ff;
+    width: 720px;
+    table-layout: fixed;
+}
+

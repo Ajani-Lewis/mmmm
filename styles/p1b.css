@@ -1,0 +1,47 @@
+.containera{
+    display: none;
+}
+
+body{
+    font-family:  "Gill Sans";
+    font-size: 13px;
+}
+
+.containerb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border-spacing: 0px;
+    border-radius: 15px;
+    border: 10px solid #687291;
+    font-size: 13px;
+    padding: 15px;
+}
+
+td, th{
+    padding-right: 12px;
+}
+
+table th + th + th + th + th + th + th + th{
+    padding-right: 7px;
+}
+
+table td + td + td + td + td + td + td + td{
+    padding-right: 7px;
+}
+
+.top-bordered{
+    border-top: 2px solid black;
+    font-weight: bold;
+}
+
+.right-aligned{
+    text-align: right;
+}
+
+.left-aligned{
+    text-align: left;
+}

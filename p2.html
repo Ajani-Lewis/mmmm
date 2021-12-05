@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Logging Form</title>
+    <link rel="stylesheet" href="styles/p2.css">
+    <script src="scripts/p2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h2>Voting Form</h2>
+        </div>
+
+        <div class="form-section">
+            <form action="submit">
+
+                <div>
+                    <label for="clerkID">Clerk ID:</label>
+                    <input type="text" id="clerkID" name="clerkID">
+                </div>
+                
+                <div>
+                    <label for="constID">Constiuency ID:</label>
+                    <input type="text" id="constID" name="constID"> 
+                </div>
+                
+                <div>
+                    <label for="pollDivID">Polling Division ID:</label>
+                    <input type="text" id="pollDivID" name="pollDivID">
+                </div>
+                
+                <div>
+                    <label for="pollStation">Polling Station:</label>
+                    <input type="text" id="pollStation" name="pollStation">
+                </div>
+
+               
+                <h3>Number of Votes</h3>
+
+                <div class="candvotes">
+                    <label for="candidate1">Candidate 1:</label>
+                    <input type="text" id="candidate1" name="candidate1">
+
+                    <label for="candidate2">Candidate 2:</label>
+                    <input type="text" id="candidate2" name="candidate2">
+                </div>
+
+                <div>
+                    <label for="rejected">Rejected Ballots:</label>
+                    <input type="text" id="rejected" name="rejected">
+                </div>
+
+                <div>
+                    <label for="total">Total Votes:</label>
+                    <input type="text" id="total" name="total">
+                </div>
+
+                <div class="button-section">
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
+
+                <input type="hidden" id="hidden" value="e11869d1186d0791">
+                
+            </form>
+
+        </div>
+        
+    </div>
+</body>
+
+</html>

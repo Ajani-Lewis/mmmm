@@ -1,0 +1,39 @@
+body{
+    font-family:  "Gill Sans";
+    font-size: 13px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-section{
+    padding-top: 10px;
+}
+
+input{
+    border-radius: 5px;
+    padding-left: 4px;
+    height: 17px;
+}
+
+#submitBtn{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.red-border{
+    border-color: red;
+}
+
